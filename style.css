@@ -1,0 +1,139 @@
+* {
+  font-family: 'DotGothic16', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(17, 17, 17);
+}
+
+.wrapper {
+  display: flex;
+  height: 97.5vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.el {
+  text-align: center;
+}
+
+.link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+/* =======================THEMES====================== */
+
+.ubuntu:hover {
+  color: #aa1c1c;
+}
+
+.kali:hover {
+  color: #35b8f5;
+}
+
+.debian:hover {
+  color: #c41f6c;
+}
+
+.mint:hover {
+  color: #5ffa5f;
+}
+
+.arch:hover {
+  color: #2eaae4;
+}
+
+.manjaro:hover {
+  color: #17cf89;
+}
+
+/* ======================== */
+
+.ubuntu-text {
+  color: #aa1c1c;
+}
+
+.kali-text {
+  color: #35b8f5;
+}
+
+.debian-text {
+  color: #c41f6c;
+}
+
+.mint-text {
+  color: #5ffa5f;
+}
+
+.arch-text {
+  color: #2eaae4;
+}
+
+.manjaro-text {
+  color: #17cf89;
+}
+
+
+/* =======================PAGES======================= */
+
+.wrapper_page {
+  display: flex;
+  height: 97.5vh;
+  width: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 800px) { 
+  * {
+    font-size: 12px;
+  }
+
+  .logo {
+    font-size: 9px;
+  }
+
+  .wrapper_page {
+    display: flex;
+    height: 97.5vh;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.info {
+  
+}
+
+.ascii {
+  
+}
+
+.el_page {
+  text-align: left;
+  color: whitesmoke;
+} 
+
+.logo {
+  line-height: 1.05;
+}
+
+.navigate-wrapper {
+  display: flex;
+}
+
+.navigate-button {
+  text-align: center;
+  display: block;
+  width: 60px;
+}
